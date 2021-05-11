@@ -14,5 +14,9 @@ def is_a(klass)
 end
 
 Super keeps going up the chain on parents to find the method exising in any of those classes
+Symbols are indentifiers. 
 
+Next we see the use on constantize I like this article that shows the security issues this has http://gavinmiller.io/2016/the-safesty-way-to-constantize/
+
+Here we get creative with it https://teamgaslight.com/blog/getting-creative-with-constantize-in-ruby-on-rails
 =end 
