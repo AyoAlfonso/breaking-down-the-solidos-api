@@ -44,5 +44,10 @@ add_reference(:products, :supplier, index: { name: "my_supplier_index" })
   end  
 end  
 
+#Helps prevent repeating this 
+belongs_to :company
+belongs_to :products
+belongs_to :article
+
 #https://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_reference
 #https://culttt.com/2016/01/13/creating-polymorphic-relationships-in-ruby-on-rails/
