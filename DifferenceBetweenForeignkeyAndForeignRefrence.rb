@@ -50,4 +50,5 @@ belongs_to :products
 belongs_to :article
 
 #https://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_reference
-#https://culttt.com/2016/01/13/creating-polymorphic-relationships-in-ruby-on-rails/
+#https://culttt.com/2016/01/13/creating-polymorphic-relationships-in-ruby-on-rails
+#https://stackoverflow.com/questions/52915025/add-foreign-key-vs-add-reference-in-rails
